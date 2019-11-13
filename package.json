@@ -6,16 +6,23 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "react-dev": "webpack -d --watch"
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.7.9"
+    "mongoose": "^5.7.9",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "webpack-config": "^7.5.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
     "nodemon": "^1.19.4",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
